@@ -74,6 +74,7 @@ const Login = () => {
 ReactDOM.render((
   <Router>
   <div>
+   <Navbar />
     <Route exact path="/" component={Home} />
    <Route exact path="/about" component={About} />
       <Route exact path="/login" component={Login} />
