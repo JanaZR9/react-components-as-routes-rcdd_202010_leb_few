@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 const Navbar = () =>
   <div>
     <NavLink
-      to="/"  exact 
+      to="/"  exact  style={link}
 const Home = () => {
   return (
     <div>
