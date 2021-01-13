@@ -11,6 +11,10 @@ import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
   color: 'white',
 }
 
+const Navbar = () =>
+  <div>
+    <NavLink
+      to="/"
 const Home = () => {
   return (
     <div>
